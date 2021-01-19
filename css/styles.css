@@ -1,0 +1,175 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+		text-align: center;
+}
+
+p {
+	color: #8f8f8f;
+}
+
+/*containers*/
+.container-fluid {
+	padding: 5% 7%;
+}
+
+/*headings*/
+
+.big-heading {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+.section-heading {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat-bold', sans-serif;
+}
+
+/*navegation bar*/
+
+.navbar-brand {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.navbar {
+	padding: 0 0 4.5rem;
+}
+
+.nav-item {
+	padding: 0 18px;
+}
+
+.nav-link {
+	font-size: 1.2rem;
+	font-family: 'Montserrat';
+}
+/*title section*/
+#title {
+	background-color: #ff4c68;
+	color: #ffff;
+	text-align: left;
+}
+#title .container-fluid {
+	padding: 3% 15% 7%;
+}
+
+/*download-button*/
+
+.download-button {
+	margin: 5% 3% 5% 0;
+}
+
+
+/*title image "iphone mob"*/
+
+.rotateimg {
+	transform: rotate(25deg);
+	width: 60%;
+	position: absolute;
+	right: 30%;
+}
+
+
+/*Feature section*/
+
+.mini {
+	width: 50px;
+}
+
+.mini:hover {
+	color: #ff4c68;
+}
+
+#features {
+	position: relative;
+	z-index: 1;
+	/*<!-- can remove z-index and it wont change -->*/
+	background-color: #fff;
+}
+
+.feature-box {
+	padding: 4.5%;
+}
+
+.feature-title{
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+/*<!-- Testimonials -->*/
+
+#testimonials {
+	background-color: #ef8172;
+	color: #fff;
+}
+
+.testimonial-img {
+	width: 10%;
+	border-radius: 50%;
+	margin: 20px;
+}
+
+.testimonial-text {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+
+/*press*/
+
+#press {
+	background-color: #ef8172;
+	padding-bottom: 3%;
+}
+
+.press-logo {
+	width: 15%;
+	margin: 20px 20px 5px;
+}
+
+
+/*pricing section*/
+
+#pricing {
+	padding: 100px;
+}
+
+.pricing-col {
+	padding: 5% 3%;
+}
+
+.price-text {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+
+/*cta section */
+
+#cta {
+	background-color: #ff4c68;
+	color: #fff;
+}
+
+/*footer section */
+
+.footer-icon {
+	margin: 20px 10px;
+}
+#footer .container-fluid{
+	padding: 3% 15% 3%;
+}
+@media (max-width: 1028px) {
+	.rotateimg {
+		position: static;
+		transform: rotate(0);
+	}
+	#title {
+		text-align: center;
+	}
+}
